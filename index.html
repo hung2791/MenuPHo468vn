@@ -94,13 +94,13 @@
             top: 1px;
             right: 10px;
             border-radius: 50%;
-            width: 120px; /* Độ rộng */
-            height: 120px; /* Độ cao */
+            width: 100px; /* Độ rộng */
+            height: 100px; /* Độ cao */
             background-color: white;
         }
         .share-icon {
-            width: 115px;
-            height: 115px;
+            width: 90px;
+            height: 90px;
         }
         .share-popup {
             display: none;
@@ -117,8 +117,8 @@
             overflow-y: auto;
             border-radius: 10px;
             text-align: center; /* Căn giữa nội dung popup theo chiều ngang */
-            width: 400px; /* Thay đổi kích thước chiều rộng */
-            height: 400px; /* Thay đổi kích thước chiều cao */
+            width: 600px; /* Thay đổi kích thước chiều rộng */
+            height: 600px; /* Thay đổi kích thước chiều cao */
         }
 
         .share-popup a {
@@ -126,19 +126,27 @@
             align-items: center;
             margin: 10px 0;
             text-decoration: none;
-            color: #333;
+            color:#272c2b;
+            font-size: 60px;
+            font-weight: bold;
         }
         .share-popup a:hover {
             color: blue;
         }
         .share-popup .social-icon {
-            width: 70px;
-            height: 70px;
+            width: 150px;
+            height: 150px;
             margin-right: 10px;
             vertical-align: middle;
+            font-size: 60px;
+            font-weight: bold; /* Đặt chữ đậm */
         }
+        .share-popup .social-icon img {
+            margin-right: 20px; /* Thêm khoảng cách giữa chữ và biểu tượng trong icon */
+        }
+
         .share-popup button {
-            background-color: rgb(59, 59, 59);
+            background-color: rgb(249, 78, 78);
             color: white;
             border: none;
             padding: 15px 30px; /* Tăng kích thước nút */
@@ -147,8 +155,9 @@
             margin-top: 20px; /* Tăng khoảng cách giữa nút và các nút khác */
             display: block;
             margin: 0 auto;
-            font-size: 18px; /* Tăng kích thước chữ */
+            font-size: 30px; /* Tăng kích thước chữ */
             transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền */
+            font-weight: bold;
         
         }
         .share-popup button:hover {
@@ -182,7 +191,6 @@
             position: relative;
         }
         .footer {
-            background-color: #333; /* Màu xám */
             color: white; /* Màu chữ trắng */
             padding: 10px;
             text-align: center;
@@ -232,8 +240,8 @@
     <div class="center-text">
         <h2>MENU</h2>
         <h4>ベトナムフォー</h4>
-        <h5> Quý khách vui lòng gọi món và thanh toán tại quầy, xin cảm ơn.
-            ご注文は入り口のレジにてお願い致します.</h5>
+        <h5> Quý khách vui lòng gọi món và thanh toán tại quầy, xin cảm ơn.</h5>     
+        <h5>ご注文は入り口のレジにてお願い致します.</h5>
         <h5> Please order at the cashier.</h5>
         
         <div class="social-links">
@@ -263,10 +271,10 @@
                 <img src="image/fb.png" alt="Facebook" class="social-icon">
                 Facebook
             </a>
-            <a href="https://www.facebook.com/uyen.ng.963"target="_blank">
+            <!-- <a href="https://www.facebook.com/uyen.ng.963"target="_blank">
                 <img src="image/twiter.png" alt="Twitter" class="social-icon">
                 Twitter
-            </a>
+            </a> -->
             <a href="mailto:hungmanhbtre279@example.com">
                 <img src="image/gmail.png" alt="Email" class="social-icon">
                 Email
