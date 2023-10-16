@@ -138,18 +138,21 @@
             vertical-align: middle;
         }
         .share-popup button {
-            background-color: red;
+            background-color: rgb(59, 59, 59);
             color: white;
             border: none;
-            padding: 15px 30px;
+            padding: 15px 30px; /* Tăng kích thước nút */
             border-radius: 5px;
             cursor: pointer;
-            margin-top: 20px;
-            display: block; /* Đảm bảo nút hiển thị trên một dòng riêng biệt */
-            margin: 0 auto; /* Để căn giữa theo chiều ngang */
+            margin-top: 20px; /* Tăng khoảng cách giữa nút và các nút khác */
+            display: block;
+            margin: 0 auto;
             font-size: 18px; /* Tăng kích thước chữ */
             transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền */
         
+        }
+        .share-popup button:hover {
+            background-color: rgb(248, 9, 9); /* Màu nền khi di chuột qua */
         }
 
         /* CSS for logo load screen */
@@ -159,14 +162,11 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgb(59, 59, 59);
+            background: rgba(255, 255, 255, 0.9);
             display: flex;
             justify-content: center;
             align-items: center;
             z-index: 9999;
-        }
-        .share-popup button:hover {
-            background-color: rgb(248, 9, 9); /* Màu nền khi di chuột qua */
         }
 
         .loading-logo img {
@@ -292,7 +292,7 @@
             var loadingLogo = document.querySelector("#loadingLogo");
             setTimeout(function () {
                 loadingLogo.style.display = "none";
-            }, 1); // 1 giây
+            }, 1500); // 1,5 giây
         });
 
         function openSharePopup() {
