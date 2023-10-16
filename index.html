@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHỞ 468⭐️</title>
+    <link rel="icon" type="image/x-icon" href="image/logo.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        body {    
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('image/background1.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }          
+        .container {
+            text-align: center;
+            position: relative;
+        }
+        .images-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .image {
+            margin: 10px;
+            width: 95%;
+            position: relative;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+        }
+        header {
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .center-text {
+            text-align: center;
+        }
+        p {
+            font-size: 20px;
+        }
+        p.p3 {
+            font-size: 24px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        .logo-title {
+            max-width: 100%;
+        }
+        h2 {
+            font-family: 'Your Desired Font', sans-serif;
+            font-size: 36px;
+            color: #fcfcfc;
+        }
+        .h21 {
+            font-family: 'Your Desired Font', sans-serif;
+            font-size: 36px;
+            color: #00000000;
+        }
+        h3{
+            font-family: 'Your Desired Font', sans-serif;
+            font-size: 30px;
+            color: #000000;
+        }
+        h4 {
+            font-family: 'Your Desired Font', sans-serif;
+            font-size: 30px;
+            color: #fcfcfc;
+        }
+        h5 {
+            font-family: 'Your Desired Font', sans-serif;
+            font-size: 25px;
+            position: relative;
+            display: inline-block;
+            color: #fcfcfc;
+        }
+        .footer {
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .share-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            top: 1px;
+            right: 10px;
+            border-radius: 50%;
+            width: 80px; /* Độ rộng */
+            height: 80px; /* Độ cao */
+            background-color: white;
+        }
+        .share-icon {
+            width: 50px;
+            height: 50px;
+        }
+        .share-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+            max-height: 80%;
+            overflow-y: auto;
+            border-radius: 10px;
+            text-align: center; /* Căn giữa nội dung popup theo chiều ngang */
+            width: 300px; /* Thay đổi kích thước chiều rộng */
+            height: 200px; /* Thay đổi kích thước chiều cao */
+        }
+
+        .share-popup a {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #333;
+        }
+        .share-popup a:hover {
+            color: blue;
+        }
+        .share-popup .social-icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .share-popup button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            display: block; /* Đảm bảo nút hiển thị trên một dòng riêng biệt */
+             margin: 0 auto; /* Để căn giữa theo chiều ngang */
+        
+        }
+
+        /* CSS for logo load screen */
+        .loading-logo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .loading-logo img {
+            width: 200px;
+            animation: spin 1.5s linear infinite;
+        }
+        h4, h5 {
+         margin: 5px 0;
+        }
+        .large-image {
+            width: 90%;
+            border-radius: 10px;
+            position: relative;
+        }
+        .footer {
+            background-color: #333; /* Màu xám */
+            color: white; /* Màu chữ trắng */
+            padding: 10px;
+            text-align: center;
+        }
+
+        .social-links {
+            margin-top: 10px;
+        }
+
+        .social-link {
+            color: white;
+            text-decoration: none;
+            font-size: 50px;
+            margin: 0 10px;
+            animation: shake 0.5s ease infinite; /* Áp dụng hiệu ứng rung lắc */
+        }
+
+
+        @keyframes shake {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            10%, 30%, 50%, 70%, 90% {
+                transform: translateX(-5px);
+            }
+            20%, 40%, 60%, 80% {
+                transform: translateX(5px);
+            }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Logo load trang -->
+    <div class="loading-logo" id="loadingLogo">
+        <img src="image/loadlogo.png" alt="Loading Logo">
+    </div>
+
+    <header>
+        <img src="image/banghieu.jpg" alt="Logo" class="logo">
+    </header>
+    <div class="center-text">
+        <h2>MENU</h2>
+        <h4>ベトナムフォー</h4>
+        <h5> Quý khách vui lòng gọi món và thanh toán tại quầy, xin cảm ơn.
+            ご注文は入り口のレジにてお願い致します.</h5>
+        <h5> Please order at the cashier.</h5>
+        
+        <div class="social-links">
+            <!-- <a href="https://www.facebook.com/uyen.ng.963" class="social-link shake"><i class="bi bi-facebook"></i></a> -->
+            <h5>HOTLINE</h5>
+            <a href="tel:09074056559" class="social-link shake"><i class="bi bi-telephone"></i></a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="images-container">
+        <div class="image">
+            <img src="image/1.png" alt="Hình ảnh 1"  class="large-image">
+        </div>
+        <div class="image">
+            <img src="image/2.png" alt="Hình ảnh 2"class="large-image">
+        </div>
+        <div class="image">
+            <img src="image/3.png" alt="Hình ảnh 3"class="large-image">
+        </div>
+        <button class="share-btn" onclick="openSharePopup()">
+            <img src="image/icon2.png" alt="Chia sẻ" class="share-icon">
+        </button>
+    </div>
+        <div class="share-popup" id="sharePopup">
+            <a href="https://www.facebook.com/uyen.ng.963"target="_blank">
+                <img src="image/fb.png" alt="Facebook" class="social-icon">
+                Facebook
+            </a>
+            <a href="https://www.facebook.com/uyen.ng.963"target="_blank">
+                <img src="image/twiter.png" alt="Twitter" class="social-icon">
+                Twitter
+            </a>
+            <a href="mailto:hungmanhbtre279@example.com">
+                <img src="image/gmail.png" alt="Email" class="social-icon">
+                Email
+            </a>
+            <a href="#" id="copyLink" onclick="copyToClipboard('https://www.facebook.com/uyen.ng.963')">
+                <img src="image/copy.png" alt="Copy Link" class="social-icon">
+                Copy Link
+            </a>
+            
+            <button onclick="closeSharePopup()">Đóng</button>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2023 PHỞ 468⭐️
+        <div class="social-links">
+            <a href="https://www.facebook.com/uyen.ng.963/"target="_blank" class="social-link"><i class="bi bi-facebook"></i></a>
+            <a href="tel:09074056559" class="social-link"><i class="bi bi-telephone"></i></a>
+        </div>
+    </div>
+    <script>
+        // Tự động ẩn logo load trang sau 3 giây
+        window.addEventListener("load", function () {
+            var loadingLogo = document.querySelector("#loadingLogo");
+            setTimeout(function () {
+                loadingLogo.style.display = "none";
+            }, 1500); // 1,5 giây
+        });
+
+        function openSharePopup() {
+            var popup = document.getElementById('sharePopup');
+            popup.style.display = 'block';
+        }
+
+        function closeSharePopup() {
+            var popup = document.getElementById('sharePopup');
+            popup.style.display = 'none';
+        }
+
+        function copyToClipboard(text) {
+            var textArea = document.createElement('textarea');
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+        }
+    </script>
+</body>
+</html>
